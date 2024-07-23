@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>GoodYear</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=devices-width, initial scale=1">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+		<style>
+			.navbar{
+				margin-bottom:0;
+				margin-radius:0;
+			}
+			.carousel-inner img {
+				width: 100%;
+				height: 100%;
+			}
+			* {box-sizing: border-box;}
+		.homepage1 {
+		position: relative;
+		width: 100%;
+		
+		}
+		.image {
+		display: block;
+		width: 100%;
+		height: auto;
+		}
+		.overlay {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		width: 100%;
+		transition: .5s ease;
+		opacity:0;
+		color: white;
+		font-size: 20px;
+		padding: 20px;
+		text-align: left;
+		}
+		.homepage1:hover .overlay {
+		opacity: 5;
+		}
+		.home {
+		position: relative;
+		font-family: Arial;
+		}
+		.text-block {
+		position: absolute;
+		top:172px;
+		right:20px;
+		color: white;
+		padding-left: 751px;
+		padding-right: 20px;
+		}
+		.text-block1{
+		position: absolute;
+		color: white;
+		bottom: 467px;
+		left: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+		</style>
+	</head>
+	<body>
+		<!--Navbar header-->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="homeindex.html">
+						<img src="images/goodyear_logo.png" class="navbar-brand" alt="goodyear-logo" />
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="navbar-nav navbar-right">
+						
+						<li class=" nav-item"><a class="nav-link" href="tyertype.html">Tyres</a></li>
+						<li class=" nav-item"><a class="nav-link" href="#">Learn</a></li>
+						<li class=" nav-item"><a class="nav-link" href="#">Care</a></li>
+						<li class=" nav-item"><a class="nav-link" href="#">About us</a></li>
+						<li class=" nav-item"><a class="nav-link" href="#">Feature</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
+			<!-- Indicators -->
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+			<!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/homepage2.jpg" alt="Los Angeles" width="100%" style="height:500px !important">
+					
+				</div>
+				<div class="carousel-item">
+					<img src="images/homepage.jpg" alt="Chicago" width="100%" style="height:500px !important">
+				</div>
+				<div class="carousel-item">
+					<img src="images/homepage3.jpg" alt="New York" width="100%" style="height:500px !important">
+				</div>
+			</div>
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div><br>
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-md-4">
+					<div class="homepage1">
+						<img src="images/himage1.jpg" alt="Avatar" class="image">
+						<div class="overlay">120 YEAR OF INNOVATION</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="homepage1">
+						<img src="images/himage2.jpg" alt="Avatar" class="image">
+						<div class="overlay">WOORY FREE SERVICE</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="homepage1">
+						<img src="images/himage3.jpg" alt="Avatar" class="image">
+						<div class="overlay">FAST AND SERVICES</div>
+					</div>
+					
+					
+				</div>
+				
+			</div>
+		</div><br>
+		
+		<div class="container-fluid">
+			<div class="row home">
+				<img src="images/himage4.jpg" alt="data" style="width:100%">
+				<div class="text-block ">
+					<h2>WE’RE ABOUT MOVING FORWARD TOGETHER.</h2>
+					<p>For over 100 years,Goodyear has been changing the way people move. From the tyres made for your cars to the ones we put on the moon,we’re always looking forward.Let us take you where you want to go.</p>
+				</div>
+				<img src="images/himage5.jpg" alt="data" style="width:100%">
+				<div class="text-block1">
+					<h1>ALWAYS PREPARED FOR THE NEXT GREAT TRIP</h1>
+					<p>The road can lead us to incredible adventures but it isn’t always kind to your tyres.Learn how you can better care for your tyres to keep on going down that road,looking for the next adventure.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
